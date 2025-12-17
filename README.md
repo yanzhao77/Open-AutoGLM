@@ -1,4 +1,12 @@
-# Open-AutoGLM
+# Open-AutoGLM （不需要本地显卡 不需要自己花钱部署模型）
+  + 这个分支我使用Claude Code ai编程改动了几个文件
+  + 可以查看提交日志 方便没有显卡的进行体验 直接使用魔塔的api模型
+  + 需要新建一个.env文件 把 .env.example里面的复制过去 改下令牌即可
+  + 演示效果图：![](./demo.png)
+  + 打包ui版本：
+    + `pyinstaller ui_main.spec --clean`
+  + 打包控制台版本：
+    + `pyinstaller main.spec --clean`
 
 [Readme in English](README_en.md)
 
